@@ -581,6 +581,7 @@ MonoBehaviour:
   highscoreContainer: {fileID: 1243247820}
   shopContainer: {fileID: 1947303847}
   settingsContainer: {fileID: 1642666627}
+  title: {fileID: 1162331783}
 --- !u!1 &944608609
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,6 +909,7 @@ GameObject:
   - component: {fileID: 1162331782}
   - component: {fileID: 1162331781}
   - component: {fileID: 1162331780}
+  - component: {fileID: 1162331783}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -1070,6 +1072,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162331778}
   m_CullTransparentMesh: 0
+--- !u!225 &1162331783
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162331778}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1243247819
 GameObject:
   m_ObjectHideFlags: 0
