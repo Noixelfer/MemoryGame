@@ -64,7 +64,7 @@ public class UIMainMenu : BaseBehaviour
 
 	private void AnimateButton(int index, float delay)
 	{
-		if (animationSequences.Count >= index)
+		if (animationSequences.Count <= index)
 		{
 			animationSequences.Add(DOTween.Sequence());
 		}
